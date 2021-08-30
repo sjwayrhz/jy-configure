@@ -1,0 +1,61 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: yun-web-config
+data:
+  web-env: dev
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yun-web
+  labels:
+    app: yun-web
+spec:
+  selector:
+    matchLabels:
+      app: yun-web
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: yun-web
+    spec:
+      containers:
+        - name: yun-web
+          image: 'registry.cn-shanghai.aliyuncs.com/jyjt/caobo-web:202108252059'
+          imagePullPolicy: IfNotPresent
+          args: ["--spring.profiles.active=$(web-env-key)"]
+          ports:
+          - containerPort: 8080 
+          env:
+          - name: web-env-key
+            valueFrom:
+              configMapKeyRef:
+                name: yun-web-config
+                key: web-env 
+          resources:
+            limits:
+              cpu: "800m"
+              memory: "2Gi"
+            requests:
+              cpu: "500m"
+              memory: "1Gi" 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: yun-web-service
+  labels:
+    name: yun-web-service
+spec:
+  type: NodePort
+  ports:
+  - name: yun-web
+    port: 8080
+    targetPort: 8080
+    nodePort: 30085
+  selector:
+    app: yun-web

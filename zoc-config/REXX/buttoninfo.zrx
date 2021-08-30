@@ -1,0 +1,23 @@
+/* REXX */
+
+cr= x2c(0d) /* Carriage Return, Hex 0D */
+lf= x2c(0a) /* Line Feed, Hex 0A */
+crlf= cr||lf /* Carriage Return plus Line Feed */
+
+msg= "About the ZOC User Buttons"||crlf||crlf
+
+msg= msg||"These buttons in the upper part of the ZOC window are called user buttons. "
+msg= msg||crlf||crlf
+
+msg= msg||"They provide quick access to user defined "
+msg= msg||"tasks, like 'send text', 'connect "
+msg= msg||"to hosts' or 'execute script', etc. "
+msg= msg||crlf||crlf
+
+msg= msg||"The buttons can be modified by right-clicking the user button bar "
+msg= msg||"or by choosing 'Edit Session Profile' from the Options menu. "
+msg= msg||crlf||crlf
+
+Call ZocMessageBox msg
+
+

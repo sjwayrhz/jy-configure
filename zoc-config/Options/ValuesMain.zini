@@ -1,0 +1,11 @@
+DontShowAgain.ClipboardPasteManyChars=INT32:1
+DontShowAgain.ClipboardPasteMultipeLines=INT32:1
+DontShowAgain.InitialHelpWindow=INT32:1
+DontShowAgain.NewVersAvailable8.01.7=INT32:1
+DontShowAgain.ProgramSettingsIntro=INT32:1
+DontShowAgain.SessionProfileIntro=INT32:1
+RecentSearches.Search00=STRING:mirror
+RecentSearches.Version=STRING:8.01.7
+StartupShowWhat=INT32:0
+TipOfDayData=STRING:0 2 18862
+Version=STRING:8.01.7

@@ -1,0 +1,166 @@
+ZOC 5.00
+
+// OPTS_DEVICE
+ActiveDevice=-1
+DeviceOpts#00=""
+DeviceOpts#01="[1]:38400-8N1|9|250<Standard.zat>"
+DeviceOpts#02=""
+DeviceOpts#03=""
+DeviceOpts#04=""
+DeviceOpts#05=EOL
+TimeoutString="^@"
+TimeoutControl=0
+TimeoutTime=0
+Standby=no
+NoStats=yes
+
+
+// OPTS_TERMINAL
+ScrlLock=0
+CtrlChars=no
+DumpMode=no
+AscTrace=no
+BinTrace=no
+StripHiBit=no
+Echo=no
+Host=no
+InCR=no
+Beep=yes
+Software7E1=no
+DoTrans=yes
+EchoCrOnly=no
+DoEnq=no
+EnqString="ZOC^9"
+
+// OPTS_CAPTURE
+CaptDefaultName="ZOC^3^2_^+^8.log"
+CaptHeading=yes
+CaptAppend=yes
+
+// OPTS_TRANSFER
+TransAutoRemove="TMP"
+ActiveTransfer=2
+TransferOpts#00=""
+TransferOpts#01=""
+TransferOpts#02=""
+TransferOpts#03=""
+TransferOpts#04=""
+TransferOpts#05=EOL
+AsciiDelay=0
+AsciiDelay2=50
+ExistActionOldDate=0
+ExistActionSameDate=0
+ExistActionNewerDate=0
+ExistActionNoDate=0
+GuessUploadName=yes
+ZNoWait=no
+ZAutoDownload=yes
+AsciiCRLF=2
+TransHighPrio=no
+RenameOld=no
+
+// OPTS_EMULATION
+ActiveEmulation=3
+EmulationOpts#00=""
+EmulationOpts#01=""
+EmulationOpts#02=""
+EmulationOpts#03=""
+EmulationOpts#04=""
+EmulationOpts#05=EOL
+DoUnixName=no
+UnixName=""
+VTStripSeq=yes
+
+// SESSION PROFILE: MACROS
+UserDesc#00="About these Buttons"
+UserDesc#01="Unix Commands"
+UserDesc#02="|Send "logout<enter>""
+UserDesc#03="|Show apache error.log "
+UserDesc#04="|Extract tar.gz"
+UserDesc#05="Run Sample Script"
+UserDesc#06="Call Host from Host Directory"
+UserDesc#07="Purchase License"
+UserDesc#08=""
+UserDesc#09=""
+UserDesc#10=""
+UserDesc#11=EOL
+UserIcon#00="6"
+UserIcon#01="-1"
+UserIcon#02="0"
+UserIcon#03="0"
+UserIcon#04="0"
+UserIcon#05="11"
+UserIcon#06="8"
+UserIcon#07=""
+UserIcon#08=""
+UserIcon#09=""
+UserIcon#10=""
+UserIcon#11=EOL
+UserValue#00="^RUN=REXX\buttoninfo.zrx"
+UserValue#01=""
+UserValue#02="logout^M"
+UserValue#03="sudo tail -f /var/log/apache2/error.log"
+UserValue#04="tar -xvf *.tar.gz^I"
+UserValue#05="^RUN=REXX\sample.zrx"
+UserValue#06="^CALL=Telehack"
+UserValue#07="^MENU=8501"
+UserValue#08=""
+UserValue#09=""
+UserValue#10=""
+UserValue#11=EOL
+AutoMacShort#00=""
+AutoMacShort#01=""
+AutoMacShort#02=""
+AutoMacShort#03=""
+AutoMacShort#04=""
+AutoMacShort#05=EOL
+AutoMacLong#00=""
+AutoMacLong#01=""
+AutoMacLong#02=""
+AutoMacLong#03=""
+AutoMacLong#04=""
+AutoMacLong#05=EOL
+AutoReplyIn#00=""
+AutoReplyIn#01=""
+AutoReplyIn#02=""
+AutoReplyIn#03=""
+AutoReplyIn#04=""
+AutoReplyIn#05=EOL
+AutoReplyOut#00=""
+AutoReplyOut#01=""
+AutoReplyOut#02=""
+AutoReplyOut#03=""
+AutoReplyOut#04=""
+AutoReplyOut#05=EOL
+FKey#00=""
+FKey#01=""
+FKey#02=""
+FKey#03=""
+FKey#04=""
+FKey#05=EOL
+
+// OPTS_WINDOW
+WinWidth=80
+WinHeight=25
+ColorFore=15
+ColorBack=0
+ColorItalic=0
+ColorBlink=0
+ColorBold=31
+Dynamic=2
+JumpScroll=2
+CodePage=1252
+ShowScrollbar=yes
+ShowToolbar=yes
+ShowStatusline=yes
+ShowUserbar=yes
+ShowChat=no
+ShowSnippets=no
+ShowMenu=yes
+ShowLeds=no
+ShowTraffic=yes
+BigCursor=no
+CursorBlink=yes
+BoldFont=no
+
+

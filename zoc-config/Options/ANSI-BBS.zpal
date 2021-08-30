@@ -1,0 +1,96 @@
+// Schwarz
+0=0,0,0,Black
+
+// Rot
+1=128,0,0,Red
+
+// Grün
+2=0,128,0,Green
+
+// Gelb
+3=128,128,0,Yellow
+
+// Blau
+4=0,0,128,Blue
+
+// Magenta
+5=128,0,128,Magenta
+
+// Zyan
+6=0,128,128,Cyan
+
+// Grau
+7=192,192,192,Gray
+
+// Dunkelgrau
+8=128,128,128,Dark Gray
+
+// Hellrot
+9=255,0,0,Light Red
+
+// Hellgrün
+10=0,255,0,Light Green
+
+// Hellgelb
+11=255,255,0,Light Yellow
+
+// Hellblau
+12=0,0,255,Light Blue
+
+// Helles Magenta
+13=255,0,255,Light Magenta
+
+// Helles Zyan
+14=0,255,255,Light Cyan
+
+// Weiß
+15=255,255,255,White
+
+// Extra 1
+16=22,42,65,Midnight blue
+
+// Extra 2
+17=53,87,187,Medium blue
+
+// Extra 3
+18=128,175,240,Bright blue
+
+// Extra 4
+19=195,221,254,White blue
+
+// Extra 5
+20=59,35,34,Mocca
+
+// Extra 6
+21=134,67,63,Red Leather
+
+// Extra 7
+22=205,187,144,Wet Sand
+
+// Extra 8
+23=222,218,196,Cafe Latte
+
+// Extra 9
+24=64,0,128,Night Purple
+
+// Extra 10
+25=128,64,255,Medium Purple
+
+// Extra 11
+26=192,128,255,Light Purple
+
+// Extra 12
+27=236,230,255,White Purple
+
+// Extra 13
+28=32,125,71,Dark Olive
+
+// Extra 14
+29=189,224,142,Light Olive
+
+// Extra 15
+30=255,128,0,Dark Orange
+
+// Extra 16
+31=255,192,0,Medium Orange
+

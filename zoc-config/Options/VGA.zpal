@@ -1,0 +1,47 @@
+// Black
+0=0,0,0,Black
+
+// Red
+1=170,0,0,Red
+
+// Green
+2=0,170,0,Green
+
+// Yellow
+3=170,85,0,Yellow
+
+// Blue
+4=0,0,170,Blue
+
+// Magenta
+5=170,0,170,Magenta
+
+// Cyan
+6=0,170,170,Cyan
+
+// Gray
+7=170,170,170,Gray
+
+// Dark Gray
+8=85,85,85,Dark Gray
+
+// Light Red
+9=255,85,85,Light Red
+
+// Light Green
+10=85,255,85,Light Green
+
+// Light Yellow
+11=255,255,85,Light Yellow
+
+// Light Blue
+12=85,85,255,Light Blue
+
+// Light Magenta
+13=255,85,255,Light Magenta
+
+// Light Cyan
+14=85,255,255,Light Cyan
+
+// White
+15=255,255,255,White

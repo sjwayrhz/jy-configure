@@ -1,0 +1,6 @@
+ZOC7.11.1 // KEYBOARD
+// each entry: scancode(hex)|flags(hex)|void|void|void|void|remap-string
+// flags: UTF8(0x100), With-Cmd(0x80), Any-ScrollLock-State(0x40), With-Alt(0x20), With-Ctrl(0x10), 
+//        With-Shift(0x08), Any-NumLock-State(0x04), With-ScrollLock-On(0x02), With-NumLock-On(0x01) 
+//        (e.g flag for a key with Ctrl and Shift, regardless of ScrollLock and NumLock =>  
+//        0x10 + 0x08 + 0x40 + 0x04 => flag (hex)5C )
