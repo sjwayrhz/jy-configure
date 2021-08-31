@@ -4,7 +4,7 @@ metadata:
   name: custom-distributedrediscluster
   namespace: redis-cluster
 spec:
-  image: redis:5.0.13-alpine
+  image: registry.cn-shanghai.aliyuncs.com/taoistmonk/images:redis-5.0.13-alpine
   masterSize: 3
   clusterReplicas: 1
   serviceName: redis-svc
