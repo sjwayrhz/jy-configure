@@ -20,21 +20,5 @@ spec:
     size: 1Gi
     class: nfs-client
     deleteClaim: true
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: redis-svc
-  namespace: redis-cluster
-spec:
-  type: NodePort
-  ports:
-  - name: redis-6379
-    port: 6379
-    targetPort: 6379
-    nodePort: 30071
-  - name: redis-16379
-    port: 16379
-    targetPort: 16379
-    nodePort: 30072
+
 
