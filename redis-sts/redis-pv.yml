@@ -2,6 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: redis-pv1
+  namespace: redis-cluster
 spec:
   capacity:
     storage: 5Gi
@@ -17,6 +18,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: redis-pv2
+  namespace: redis-cluster
 spec:
   capacity:
     storage: 5Gi
@@ -32,6 +34,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: redis-pv3
+  namespace: redis-cluster
 spec:
   capacity:
     storage: 5Gi
@@ -47,6 +50,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: redis-pv4
+  namespace: redis-cluster
 spec:
   capacity:
     storage: 5Gi
@@ -62,6 +66,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: redis-pv5
+  namespace: redis-cluster
 spec:
   capacity:
     storage: 5Gi
